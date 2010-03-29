@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title> <?php the_title(); ?> &raquo; <?php get_bloginfo('name'); ?></title>
+	<title> <?php the_title(); ?> &raquo; <?php bloginfo('name'); ?></title>
 	
 	<meta name="description" content="<?php if (have_posts()): while (have_posts()): the_post(); echo strip_tags(get_the_excerpt()); endwhile; endif; ?>" />
 	
@@ -10,13 +10,13 @@
 	<link rel="icon" type="image/png" href="<?php bloginfo('template_url'); ?>/img/favicon.ico" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	
-	<link rel="stylesheet" href="<?php get_bloginfo('template_url'); ?>/css/base.css" type="text/css" media="screen" charset="utf-8" />
-	<link rel="stylesheet" href="<?php get_bloginfo('template_url'); ?>/css/theme.css" type="text/css" media="screen" charset="utf-8" />
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/base.css" type="text/css" media="screen" charset="utf-8" />
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/theme.css" type="text/css" media="screen" charset="utf-8" />
 
-	<script type="text/javascript" src="<?php get_bloginfo('template_url'); ?>/scripts/jquery-1.4.2.min.js"></script>
-	<script type="text/javascript" src="<?php get_bloginfo('template_url'); ?>/scripts/jquery.browser.addEnvClass.js"></script>
-	<script type="text/javascript" src="<?php get_bloginfo('template_url'); ?>/scripts/jquery.hilightnav.js"></script>
-	<script type="text/javascript" src="<?php get_bloginfo('template_url'); ?>/scripts/init.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/scripts/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/scripts/jquery.browser.addEnvClass.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/scripts/jquery.hilightnav.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/scripts/init.js"></script>
 	
 	<?php if (ereg('iPhone',$_SERVER['HTTP_USER_AGENT']) || ereg('iPod',$_SERVER['HTTP_USER_AGENT'])): ?>
 		<?php // iPhone Support ?>
