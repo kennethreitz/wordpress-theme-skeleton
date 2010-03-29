@@ -4,7 +4,7 @@
 </div>
 </div>
 <div class="hide">
-<?php wp_foot(); ?>
+<?php wp_footer(); ?>
 </div>
 
 </body>
