@@ -1,0 +1,39 @@
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+body { line-height: 1; }
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+/* Standard Attributes*/
+.block	{ display: block; }
+.inline	{ display: inline; }
+.clearfix   { display:inline-block; }
+.hide	{ display: none; }
+.fleft 	{ float: left; }
+.fright	{ float: right; }
+.fclear	{ clear: both; }
+.hi 	{ background-color: rgb(255, 255, 204); }
+.sub 	{ vertical-align: sub; }
+.super 	{ vertical-align: super; }
+.middle { vertical-align: middle; }
+.center	{ margin-left: auto; margin-right: auto; text-align: center; }
+.seo    { text-indent: -9000px; }
