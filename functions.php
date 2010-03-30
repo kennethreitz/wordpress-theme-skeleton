@@ -1,7 +1,7 @@
 <?php 
 // Saftey first.
 if (!empty($_SERVER['SCRIPT_FILENAME']) && 'functions.php' == basename($_SERVER['SCRIPT_FILENAME']))
-die ('Please do not load this page directly. Thanks!');
+die ('Please do not load this page directly, Hassan!');
 
 // Plug it
 header('X-Powered-By: Semantics are everything. me@kennethreitz.com for more info.');
