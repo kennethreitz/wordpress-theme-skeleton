@@ -36,7 +36,7 @@
 	<?php wp_head(); ?>
 	
 </head>
-<body>
+<body <?php body_class(); ?>>
 	<div class="container">
 		<div id="header">
 			<div id="nav">
