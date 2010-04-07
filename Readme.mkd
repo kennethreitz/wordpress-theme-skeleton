@@ -19,7 +19,7 @@ Features
 * CSS Reset and Standard Attributes included
 * All page types are available as Page / Post Templates.
 * Additional body classes added to detect current browser
-* Official support for [`wp-minify`](http://omninoggin.com/wordpress-plugins/wp-minify-wordpress-plugin/)
+* Official support for [wp-minify](http://omninoggin.com/wordpress-plugins/wp-minify-wordpress-plugin/)
 
 
 Still in the works...
