@@ -1,0 +1,31 @@
+WordPress Theme Skeleton 
+=========
+
+To make a long story short, I hate repeating myself. A lot. 
+
+[Download WordPress Theme Skeleton](http://github.com/kennethreitz/wordpress-theme-skeleton/zipball/HEAD) to get started.
+
+
+Features
+--------
+
+* Pre-built `functions.php`, `header.php`, `footer.php`, `page.php`, `single.php`, `index.php`, `404.php`
+* Out of the box iPhone / iPad support (just edit `iPhone.css` and `iPad.css`)
+* All page types available as Page / Post Templates.
+* Additional body classes added to detect current browser
+* jQuery plugin for adding OS, Browser name, and Version to body tag.
+* jQuery plugin for enabling
+* CSS Reset and Standard Attributes
+* Out of the box support for [`wp-minify`](http://omninoggin.com/wordpress-plugins/wp-minify-wordpress-plugin/)
+
+
+Still in the works...
+---------------
+
+* Custom Theme Settings template
+* Settings for adding Prototype, MooTools, and ExtCore (defaulting to jQuery of course)
+
+
+What you need to know
+--------
+

@@ -27,13 +27,15 @@ function browser_body_class($classes) {
 // Remove usless the_generator meta tag
 add_filter( 'the_generator', create_function('$a', "return null;") );
 
-// // Custom Logo
-// function blueridgephoto_login_logo() {
-//     echo '<style type="text/css">
-//         h1 a { background-image:url('.get_bloginfo('template_directory').'/images/custom-login-logo.gif) !important; }
-//     </style>';
-// }
-// 
-// add_action('login_head', 'blueridgephoto_ogin_logo');
+// Custom Logo
+function custom_logo() { ?> 
+	<style type="text/css">
+		h1 a { background-image: url(
+			<?php get_bloginfo('template_directory'); ?>/img/logo-login.gif
+		) !important) }
+    </style>
+}
+
+<?php add_action('login_head', 'custom_logo'); ?>
 
 

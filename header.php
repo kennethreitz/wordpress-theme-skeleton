@@ -18,13 +18,20 @@
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/scripts/jquery.hilightnav.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/scripts/init.js"></script>
 	
-	<?php if (ereg('iPhone',$_SERVER['HTTP_USER_AGENT']) || ereg('iPod',$_SERVER['HTTP_USER_AGENT'])): ?>
-		<?php // iPhone Support ?>
+	<?php if (ereg('iPhone',$_SERVER['HTTP_USER_AGENT']) || ereg('iPod',$_SERVER['HTTP_USER_AGENT']) || ereg('iPad',$_SERVER['HTTP_USER_AGENT'])): ?>
+		
+		<meta name="viewport" content="initial-scale=1.0">
 		<meta name="apple-mobile-web-app-capable" content="yes" />
-	   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-	   <meta name="apple-touch-fullscreen" content="yes" />
-		<link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/iphone.css" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="apple-touch-fullscreen" content="yes" />
 		<link rel="apple-touch-icon" href="<?php bloginfo('template_url'); ?>/img/apple-touch-icon.png" />
+		
+		<?php if ereg('iPad',$_SERVER['HTTP_USER_AGENT']): ?>
+			<link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/ipad.css" />
+		<?php else: ?>
+			<link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/iphone.css" />	
+		
+	<?php elseif (): ?>
 	<?php else: ?>
 		<meta name="viewport" content="width=960" />
 
