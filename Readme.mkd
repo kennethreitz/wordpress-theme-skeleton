@@ -10,13 +10,13 @@ Features
 --------
 
 * Pre-built `functions.php`, `header.php`, `footer.php`, `page.php`, `single.php`, `index.php`, `404.php`
-* Out of the box iPhone / iPad support (just edit `iPhone.css` and `iPad.css`)
-* All page types available as Page / Post Templates.
-* Additional body classes added to detect current browser
+* Out of the box iPhone / iPad support (portrait and landscape). Just edit `iPhone.css` and `iPad.css`
 * jQuery plugin for adding OS, Browser name, and Version to body tag.
-* jQuery plugin for enabling
-* CSS Reset and Standard Attributes
-* Out of the box support for [`wp-minify`](http://omninoggin.com/wordpress-plugins/wp-minify-wordpress-plugin/)
+* jQuery plugin for marking current URL in links
+* CSS Reset and Standard Attributes included
+* All page types are available as Page / Post Templates.
+* Additional body classes added to detect current browser
+* Official support for [`wp-minify`](http://omninoggin.com/wordpress-plugins/wp-minify-wordpress-plugin/)
 
 
 Still in the works...
@@ -29,3 +29,14 @@ Still in the works...
 What you need to know
 --------
 
+**Structure:**
+
+`.container`
+
+  - `#header`
+      * `#nav`
+  - `#content`
+      * `.meat`
+  - `#footer`
+
+Happy coding!
