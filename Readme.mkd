@@ -10,9 +10,12 @@ Features
 --------
 
 * Pre-built `functions.php`, `header.php`, `footer.php`, `page.php`, `single.php`, `index.php`, `404.php`
-* Out of the box iPhone / iPad support (portrait and landscape). Just edit `iPhone.css` and `iPad.css`
+* Out of the box iPhone / iPad CSS support (portrait and landscape). Just edit [`iPhone.css`](http://github.com/kennethreitz/wordpress-theme-skeleton/blob/master/css/iphone.css) and [`iPad.css`](http://github.com/kennethreitz/wordpress-theme-skeleton/blob/master/css/ipad.css)
+* Additional meta-tags for Mobile Safari
+* Included Apple Touch Icon (46x46)
+* Included custom icon for site login screen
 * jQuery plugin for adding OS, Browser name, and Version to body tag.
-* jQuery plugin for marking current URL in links
+* jQuery plugin for marking current URL in links 
 * CSS Reset and Standard Attributes included
 * All page types are available as Page / Post Templates.
 * Additional body classes added to detect current browser
