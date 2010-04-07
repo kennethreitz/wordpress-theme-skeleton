@@ -14,7 +14,7 @@ Features
 * Additional meta-tags for Mobile Safari
 * Included Apple Touch Icon (46x46)
 * Included custom icon for site login screen
-* jQuery plugin for adding OS, Browser name, and Version to body tag.
+* jQuery plugin which adds OS, Browser name, and Version to body tag.
 * jQuery plugin for marking current URL in links 
 * CSS Reset and Standard Attributes included
 * All page types are available as Page / Post Templates.
