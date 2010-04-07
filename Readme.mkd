@@ -1,7 +1,7 @@
 WordPress Theme Skeleton 
 =========
 
-To make a long story short, I hate repeating myself. A lot. 
+To make a long story short, I hate repeating myself. A lot. Every time I sit down to build a WordPress theme for a client, I end out starting the exact same way. So I decided to make a WordPress Theme skeleton. Not 
 
 [Download WordPress Theme Skeleton](http://github.com/kennethreitz/wordpress-theme-skeleton/zipball/HEAD) to get started.
 
@@ -34,12 +34,6 @@ What you need to know
 
 **Structure:**
 
-`.container`
-
-  - `#header`
-      * `#nav`
-  - `#content`
-      * `.meat`
-  - `#footer`
+> .container > #header + #content + #footer
 
 Happy coding!
