@@ -1,0 +1,44 @@
+theme-skeleton(1) -- WordPress: Repeat All
+=================================
+
+
+## DESCRIPTION
+
+I don't like repeating myself.
+
+To make a long story short, I hate repeating myself. A lot. Every time I sit down to build a WordPress theme for a client, I end out starting the exact same way. So I decided to make a WordPress Theme skeleton. Not only does this saves me hours of time, but after months of refinement, this skeleton has brought my client themes to a whole new level. 
+
+
+## FEATURES
+
+* Pre-built `functions.php`, `header.php`, `footer.php`, `page.php`, `single.php`, `index.php`, `404.php`
+* Out of the box iPhone / iPad CSS support (portrait and landscape). Just edit [`iPhone.css`](http://github.com/kennethreitz/wordpress-theme-skeleton/blob/master/css/iphone.css) and [`iPad.css`](http://github.com/kennethreitz/wordpress-theme-skeleton/blob/master/css/ipad.css)
+* Additional meta-tags for Mobile Safari
+* Included Apple Touch Icon (46x46)
+* Included custom icon for site login screen
+* jQuery plugin which adds OS, Browser name, and Version to body tag.
+* jQuery plugin for marking current URL in links 
+* CSS Reset and Standard Attributes included
+* All page types are available as Page / Post Templates.
+* Additional body classes added to detect current browser
+* Official support for [`wp-minify`](http://omninoggin.com/wordpress-plugins/wp-minify-wordpress-plugin/)
+
+
+## STILL IN THE WORKS...
+
+These features will be available soon. If you'd like them sooner, feel free to contribute. 
+
+
+  * Integrated admin'd theme settings
+  * Settings for adding Prototype, MooTools, and ExtCore (defaulting to jQuery of course)
+
+
+## COPYRIGHT
+
+theme-skeleton is Copyright (C) 2010 Kenneth Reitz
+
+
+## SEE ALSO
+
+[`wp-skeleton(1)`](http://code.kennethreitz.com/wordpress-skeleton/), [`wp-coreylib(7)`](http://github.com/kennethreitz/wp-coreylib), 
+[`http://kennethreitz.github.com`](http://code,kennethreitz.com/)

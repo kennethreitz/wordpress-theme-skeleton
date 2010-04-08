@@ -1,0 +1,64 @@
+# WordPress 2.9.2 Skeleton - I don't like repeating myself. 
+
+# Installation
+
+> cd httpdocs  
+> git clone git://github.com/kennethreitz/wordpress-skeleton.git .  
+> git submodule init  
+> git submodule update  
+
+## Enhanced Configurations
+
+* WordPress installed in `/blog/`, but will serve site from `/`
+* Robust [`wp-config.php`](http://github.com/kennethreitz/wordpress-skeleton/blob/master/blog/wp-config.php)
+  - Built to support dev+ops environments w/ debugging
+  - Default FTP connection info for installing/updating/deleting components
+
+* Ready to go [`.htaccess`](http://github.com/kennethreitz/wordpress-skeleton/blob/master/.htaccess)
+  - Enables `mod_rewrite` for pretty urls
+  - Gzip compression for most requests
+  - Adds reasonable upload file-sizes
+
+* Ready to go [`robots.txt`](http://github.com/kennethreitz/wordpress-skeleton/blob/master/robots.txt)
+  - No robots on `/archive/` pages  
+  - No robots on `/category/` pages
+  - No robots on `/tag/` pages
+
+* Example [`/external.php`](http://github.com/kennethreitz/wordpress-skeleton/blob/master/external.php) for dipping into WordPress API from external PHP
+
+## Available [Themes](http://github.com/kennethreitz/wordpress-skeleton/tree/master/blog/wp-content/themes/)
+
+* [KennethReitz's Wordpress Theme Skeleton](http://github.com/kennethreitz/wordpress-theme-skeleton)
+* [Jumpchart's Content Wireframing Theme](http://www.jumpchart.com/tour/wordpress/)
+
+## Available [Plugins](http://github.com/kennethreitz/wordpress-skeleton/tree/master/blog/wp-content/plugins/)
+
+* [After the Deadline](http://www.afterthedeadline.com/) (Spelling and grammar checking)
+* [Akismet](http://akismet.com/) (Comment spam destroyer)
+* [Collabpress](http://wordpress.org/extend/plugins/collabpress/) (Project tracking + task management within backend)
+* [CoreyLib](http://github.com/kennethreitz/wp-coreylib)  (Universal API parser + cache)
+* [Disable Updates](http://github.com/kennethreitz/wp-disable-updates) (I got sick of client sites breaking on updates)
+* [Disqus Commenting System](http://wordpress.org/extend/plugins/disqus-comment-system/) (Socialize your site)
+* [Extra Feed Links](http://scribu.net/wordpress/extra-feed-links) (Semantics are everything)
+* [Front End Editor](http://scribu.net/wordpress/front-end-editor) (Beautiful plugin for editing a page/post's content on the spot)
+* [Google Sitemap Generator](http://www.arnebrachhold.de/projects/wordpress-plugins/google-xml-sitemaps-generator/) (Google wants the latest)
+* [Markdown Extra 1.2.4](http://michelf.com/projects/php-markdown/) (I don't like typing HTML all the time)
+* [More Fields](http://labs.dagensskiva.com/plugins/more-fields/) (No more ugly custom fields + custom post/page types)
+* [PageMash](http://wordpress.org/extend/plugins/pagemash/) (Content-heavy sites can be cumbersome)
+* [PushPress](http://wordpress.org/extend/plugins/pushpress/) (Support for PubSubHubbub)
+* [Redirection](http://urbangiraffe.com/plugins/redirection/) (They are called permalinks for a reason)
+* [Role Manager](http://sourceforge.net/projects/role-manager/) (Turns WordPress into a real CMS)
+* [Shopp](http://shopplugin.net/) (The total ecommerce package)
+* [Tantan S3](http://tantannoodles.com/toolkit/wordpress-s3/) (Amazon S3 for WordPress uploads)
+* [Twitter Tools](http://wordpress.org/extend/plugins/twitter-tools/) (AutoPost to Twitter when a post goes live. Soon to be replaced with Salsa )
+* [Clippy Syntax Highlighter](http://github.com/kennethreitz/wp-clippy-syntax-plugin) (GeSHi + Clippy from GitHub for one-click copying of code)
+* [WP-Dummy Content](http://wordpress.org/extend/plugins/wp-dummy-content/) (Fills your WordPress installation w/ dummy content)
+* [WP-Minify](http://omninoggin.com/wordpress-plugins/wp-minify-wordpress-plugin/) (Fantastic Auto minification plugin w/ cacheing)
+* [WP-Super Cache](http://wordpress.org/extend/plugins/wp-super-cache/) (Very robust plugin for cacheing Posts and/or Pages)
+* [WP-Touch](http://www.bravenewcode.com/products/wptouch/) (One click lazy man's iPhone support)
+
+## In the Works
+
+* Salsa: Facebook and Twitter updates for WordPress
+
+**Enjoy :)**
