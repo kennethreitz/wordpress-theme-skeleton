@@ -27,7 +27,7 @@ Still in the works...
 ---------------
 
 * Custom Theme Settings template
-* Settings for adding Prototype, MooTools, and ExtCore (defaulting to jQuery of course)
+* Settings for adding Prototype, MooTools, dojo, and ExtCore (defaulting to jQuery of course)
 
 
 What you need to know
