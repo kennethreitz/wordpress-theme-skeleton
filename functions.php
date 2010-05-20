@@ -34,9 +34,21 @@ function custom_logo() { ?>
 			<?php get_bloginfo('template_directory'); ?>/img/logo-login.gif
 		) !important) }
     </style>
-<?php } ?>
+<?php }
 
-<?php add_action('login_head', 'custom_logo'); ?>
+add_action('login_head', 'custom_logo');
+
+// Add Sidebars
+$sidebars = array(); // array('Home Sidebar', 'Other Sidebar');
+foreach($sidebars as $name) {
+	register_sidebar(array('name'=> $name,
+		'before_widget' => '<div class="block">',
+		'after_widget' => '</div><div class="blockfooter"></div>',
+		'before_title' => '<h3>',
+		'after_title' => '</h3>',
+	));
+}
+
 
 
 
