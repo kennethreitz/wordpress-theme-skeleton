@@ -38,18 +38,6 @@ function custom_logo() { ?>
 
 add_action('login_head', 'custom_logo');
 
-// Add Sidebars
-$sidebars = array(); // array('Home Sidebar', 'Other Sidebar');
-foreach($sidebars as $name) {
-	register_sidebar(array('name'=> $name,
-		'before_widget' => '<div class="block">',
-		'after_widget' => '</div><div class="blockfooter"></div>',
-		'before_title' => '<h3>',
-		'after_title' => '</h3>',
-	));
-}
-
-
 
 
 
