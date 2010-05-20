@@ -24,7 +24,7 @@ function browser_body_class($classes) {
 	return $classes;
 }
 
-// Remove usless the_generator meta tag
+// Remove usless the_generator meta tag - whoops
 add_filter( 'the_generator', create_function('$a', "return null;") );
 
 // Custom Logo
@@ -34,8 +34,14 @@ function custom_logo() { ?>
 			<?php get_bloginfo('template_directory'); ?>/img/logo-login.gif
 		) !important) }
     </style>
-}
+<?php } ?>
 
 <?php add_action('login_head', 'custom_logo'); ?>
+
+
+
+
+
+
 
 
